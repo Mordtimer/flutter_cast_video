@@ -17,8 +17,5 @@
     </style>
 
 
-    <style name="ChromecastCustomStyle" parent="NormalTheme">
-        <item name="android:colorAccent">@color/cast_expanded_controller_ad_break_marker_color
-        </item>
-    </style>
+
 </resources>
