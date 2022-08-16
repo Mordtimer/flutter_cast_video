@@ -46,7 +46,7 @@ class ChromeCastController(
             val title = args["title"] as? String ?: ""
             val subtitle = args["subtitle"] as? String ?: ""
             val imageUrl = args["image"] as? String ?: ""
-            val contentType = args["contentType"] as? String ?: "videos/mp4"
+            val contentType = args["contentType"] as? String ?: "audio/mp4"
             val liveStream = args["live"] as? Boolean ?: false
 
             val movieMetadata = MediaMetadata(MediaMetadata.MEDIA_TYPE_MOVIE)
